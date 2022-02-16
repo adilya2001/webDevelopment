@@ -1,0 +1,128 @@
+body,
+html {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: gainsboro;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.upperWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.mainTitle {
+  font-size: 45px;
+  font-weight: 900;
+  color: dodgerblue;
+}
+.title {
+  font-size: 18px;
+}
+
+.article {
+  width: 25%;
+  margin: 10% 8% 15% 15%;
+}
+
+.loginWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
+  background-color: #fff;
+  width: 70%;
+  border-radius: 5px;
+  margin-top: 20%;
+  margin-left: 15%;
+  box-shadow: 0 0 15px grey;
+}
+
+.createPage {
+  width: 78%;
+  font-size: 12px;
+  margin: 5% 0 0 15%;
+}
+
+.weight {
+  font-weight: 900;
+}
+input {
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+  width: 99%;
+  margin-bottom: 4%;
+}
+:focus {
+  outline: none;
+  border-color: dodgerblue;
+  box-shadow: 0 0 2px #719ece;
+}
+
+.enter {
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  color: #fff;
+  background-color: dodgerblue;
+  width: 100%;
+  margin-bottom: 4%;
+}
+
+a {
+  text-decoration: none;
+  font-size: 12px;
+  margin-bottom: 4%;
+}
+
+.line {
+  border-top: 1px solid #000;
+  width: 99%;
+  margin-bottom: 8%;
+}
+.secLine {
+  border-top: 1px solid #000;
+  width: 99%;
+}
+.createAcc {
+  background-color: forestgreen;
+  color: #fff;
+  border: none;
+  height: 40px;
+  width: 50%;
+  border-radius: 5px;
+}
+
+.underWrapper {
+  background-color: #fff;
+  float: none;
+}
+::after {
+  content: none;
+}
+::before {
+  content: none;
+}
+
+.languages {
+  color: darkslategrey;
+  margin: 1% 1% 1% 15%;
+  font-size: 12px;
+}
+
+.footer {
+  color: darkslategrey;
+  margin: 1% 1% 1% 15%;
+  font-size: 12px;
+}
